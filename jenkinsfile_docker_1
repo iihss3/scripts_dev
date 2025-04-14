@@ -1,11 +1,10 @@
 pipeline {
-
     agent any
     stages {
         stage ('Test') {
             steps {
                 echo "HELLO"
-                sh 'docker ps'
+                //sh 'docker ps'
             }
         }
     }
