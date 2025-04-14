@@ -1,6 +1,6 @@
 pipeline {
     agent (win-agent) {
-        docker { image alpine/git:v2.47.2 }
+        docker { image 'alpine/git:v2.47.2' }
     }
     stages {
         stage ('Test') {
