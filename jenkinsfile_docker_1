@@ -6,7 +6,8 @@ pipeline {
         stage ('Test') {
             steps {
                 echo "HELLO"
-                sh 'docker ps'
+                sh 'ls -l'
+                sh 'node --version'
             }
         }
     }
